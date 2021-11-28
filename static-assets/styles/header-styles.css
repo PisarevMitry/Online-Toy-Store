@@ -1,0 +1,95 @@
+/*оформление окон*/
+header * {
+    display: flex;
+}
+
+header {
+    display: inline;
+    width: 100%;
+    height: min-content;
+    background-color: white;
+}
+
+header .header_content {
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+
+header .header_nav {
+    width: -webkit-fill-available;
+}
+
+header .header_nav>ul {
+    width: inherit;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    padding: 8px;
+}
+
+header .header_nav_item {
+    margin: 0px 8px 0px 8px;
+    vertical-align: middle;
+    width: min-content;
+}
+
+header .dropdown_nav_container {
+    display: none;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    float: ft;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 8px;
+}
+
+header .dropdown_nav_container ul {
+    flex-direction: column;
+}
+
+header .first_level {
+    width: 100%;
+    height: 100%;
+}
+
+header .first_level ul {
+    padding: 8px;
+    margin: 8px;
+}
+
+header .second_level {
+    display: none;
+    position: absolute;
+    top: 8px;
+    left: 35%;
+    height: 100%;
+}
+
+header .second_level .item:hover .third_level {
+    display: block;
+}
+
+header .third_level {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 110%;
+    width: 100%;
+}
+
+header .promo_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    padding: 8px;
+}
+
+header .dropdown_button_close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>LEGO Addiction Shop</title>
+    <link href="static-assets\styles\header-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\footer-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\styles.css" rel="stylesheet">
+    <link href="static-assets\styles\font-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\button-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\contacts.css" rel="stylesheet">
+    <script src="static-assets\libs\header.js"></script>
+    <link rel="stylesheet" href="static-assets\styles\chief-slider.css">
+    <script defer src="static-assets\libs\chief-slider.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_content">
+            <div class="header_nav_logo icon_button">
+                <a href="main.html"><img src="static-assets\images\logo.png"  id="header-logo"></a>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li class="header_nav_item">
+                        <button onclick="openDropdownNav()" class="dropdown_button text_button">
+                            <span class="small section_text">Продукты</span>
+                        </button>
+                        <div class="dropdown_nav_container" id="dropdown_nav_container">
+                            <div class="first_level">
+                                <ul>
+                                    <li class="item">
+                                        <button onclick="openDropdownNavSecondLevel(0)" class="nav_container_item">
+                                            <span class="middle section_text"></spanclass>Транспорт</span>
+                                        </button>
+                                        <div class="second_level">
+                                            <ul>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Смотреть все</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img" src="static-assets\images\promo.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Самолеты</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\plane.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Вертолеты</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\helicopter.png">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Военная техника</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\militart.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Поезда</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\train.png">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <button onclick="openDropdownNavSecondLevel(1)" class="nav_container_item">
+                                            <span class="middle section_text">Корабли</span>
+                                        </button>
+                                        <div class="second_level">
+                                            <ul>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Смотреть все</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img" src="static-assets\images\promo.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Современные
+                                                                корабли</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\ship3.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Исторические
+                                                                модели</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\ship.png">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <button onclick="openDropdownNavSecondLevel(2)" class="nav_container_item">
+                                            <span class="middle section_text">Постройки</span>
+                                        </button>
+                                        <div class="second_level">
+                                            <ul>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Смотреть все</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img" src="static-assets\images\promo.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Современные
+                                                                здания</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img" src="static-assets\images\promo.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span
+                                                                class="middle section_text">Достопримечательности</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img"
+                                                            src="static-assets\images\head-promo-img\showplace.png">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Средневековые
+                                                                замки</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img" src="static-assets\images\promo.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a href="/ru/ru/speakers"
+                                                            class="nav_container_item_second_level_link">
+                                                            <span class="middle section_text">Кукольные
+                                                                домики</span></a>
+                                                    </div>
+                                                    <div class="third_level">
+                                                        <img class="promo_img" src="static-assets\images\promo.jpg">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="nav_container_item">
+                                            <a href="/ru/ru/televisions"><span
+                                                    class="middle section_text">Головоломки</span></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button onclick="openDropdownNav()" class="dropdown_button_close icon_button">
+                                <img src="static-assets\images\free-icon-close-cross-64498.png">
+                            </button>
+                        </div>
+                    </li>
+                    <li class="header_nav_item"><a href="contacts.html"><span
+                                class="small section_text">Магазины</span></a></li>
+                </ul>
+            </nav>
+            <div class="basket icon_button">
+                <img src="static-assets\images\premium-icon-shopping-bag-2956820.png" id="header-logo">
+            </div>
+            <div class="user icon_button">
+                <img src="static-assets\images\premium-icon-user-2661519.png" id="header-logo">
+            </div>
+        </div>
+
+    </header>
+    <main id="main">
+        <div class="container contacts__container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Адрес</h2>
+                    <p>125196, Россия, Москва</p>
+                    <p>ул. 1-я Тверская-Ямская, д.21</p>
+                    <p><strong>Тел.:</strong> +7 968 332-09-67</p>
+                    <p><strong>Часы работы:</strong> 11:00-19:00</p>
+                </div>
+                <div class="col-md-8">
+                    <h2>Мы на связи</h2>
+                    <p>Оставьте свою заявку, и мы свяжемся с вами.</p>
+                    <div role="form" class="wpcf7" id="wpcf7-f52980-o1" lang="ru-RU" dir="ltr">
+                        <div class="screen-reader-response"></div>
+                        <form action="/contacts/#wpcf7-f52980-o1" method="post" class="wpcf7-form"
+                            novalidate="novalidate">
+                            <div style="display: none;">
+                                <input type="hidden" name="_wpcf7" value="52980">
+                                <input type="hidden" name="_wpcf7_version" value="4.9.1">
+                                <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f52980-o1">
+                                <input type="hidden" name="_wpcf7_container_post" value="0">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span class="wpcf7-form-control-wrap aname"><input type="text" name="aname" value=""
+                                            size="40"
+                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required contact__form__input"
+                                            aria-required="true" aria-invalid="false" placeholder="Ваше имя"></span><br>
+                                    <span class="wpcf7-form-control-wrap company"><input type="text" name="company"
+                                            value="" size="40"
+                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required contact__form__input"
+                                            aria-required="true" aria-invalid="false"
+                                            placeholder="Название компании"></span><br>
+                                    <span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value=""
+                                            size="40"
+                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required contact__form__input"
+                                            aria-required="true" aria-invalid="false"
+                                            placeholder="Номер телефона"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40"
+                                            rows="10"
+                                            class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required contact__form__textarea"
+                                            aria-required="true" aria-invalid="false"
+                                            placeholder="Опишите ваш запрос"></textarea></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="about_terms">Нажимая кнопку «Отправить», вы соглашаетесь на обработку
+                                        персональных данных в соответствии с <a href="/terms">Политикой
+                                            конфиденциальности</a>.</p>
+                                    <p> <input type="submit" value="Отправить"
+                                            class=" col-md-6 btn btn-primary contact__form__submit"><span
+                                            class="ajax-loader"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="footer_logo"><span>Toy Addiction</span></div>
+        <nav class="footer_nav">
+            <ul>
+                <li class="footer_nav_item">
+                    <ul>
+                        <li class="footer_nav_item_caption"><span>Страна/Регион</span></li>
+                        <li><a href=""><span>gfdgdfg</span></a></li>
+                    </ul>
+                </li>
+                <li class="footer_nav_item">
+                    <ul>
+                        <li class="footer_nav_item_caption"><span>Обслуживание клиентов</span></li>
+                        <li><a href=""><span>Войти/Зарегистрироваться</span></a></li>
+                        <li><a href=""><span>FAQ</span></a></li>
+                    </ul>
+                </li>
+                <li class="footer_nav_item">
+                    <ul>
+                        <li class="footer_nav_item_caption"><span>Нормативные документы</span></li>
+                        <li><a href=""><span>Политика конфиденциальности</span></a></li>
+                        <li><a href=""><span>Условия использования</span></a></li>
+                        <li><a href=""><span>Лицензионное соглашение</span></a></li>
+                    </ul>
+                </li>
+                <li class="footer_nav_item">
+                    <ul>
+                        <li class="footer_nav_item_caption"><span>Наша компания</span></li>
+                        <li><a href=""><span>Контакты</span></a></li>
+                        <li><a href=""><span>Карьера</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer_nav_suggest">
+            <div class="footer_nav_suggest_container">
+                <ul>
+                    <li><img src="static-assets\images\vk-logo.png"></li>
+                    <li><img src="static-assets\images\instagram-logo.png"></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+main span {
+	color: white;
+}
+.good_card {
+	width: 100%;
+	background-color: grey;
+	padding: 8px;
+}
+.first_level_content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.second_level_content {
+	height: min-content;
+	margin: 8px;
+	padding: 8px;
+}
+.good_card .warranty ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.promo_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	margin: 8px;
+}
+.promo_img {
+	position: relative;
+	width: 300px;
+	margin: 8px;
+}
+.good_card .promo_img img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.promo_img .slider__wrapper {
+	overflow: hidden;
+}
+.promo_img .slider__item {
+	flex: 0 0 100%;
+	max-width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: grey;
+	font-size: 7rem;
+}
+.specifications {
+	max-width: 100%;
+	height: min-content;
+	margin: 16px;
+	padding: 8px;
+	background-color: grey;
+}
+.description {
+	display: none;
+}
+.description span {
+	color: white;
+}
+.open-button {
+	background-color: #2196F3;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+}
+.form-popup {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 1;
+}
+.form-container {
+	padding: 10px;
+	background-color: white;
+}
+.form-container input[type=text], .form-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+.form-container .btn {
+	background-color: #1976D2;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+	font-size: 15px;
+	font-weight: bold;
+}
+.form-container .cancel {
+	background-color: #448AFF;
+}
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
