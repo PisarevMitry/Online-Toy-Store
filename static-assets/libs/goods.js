@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const slider = new ChiefSlider('.slider', {
-        loop: true
-    });
+    var elms = document.querySelectorAll('.slider');
+    for (var i = 0, len = elms.length; i < len; i++) {
+        new ChiefSlider(elms[i]);
+    }
 });

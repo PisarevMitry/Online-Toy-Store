@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="text/html" http-equiv="Content-Type">
+    <link type="image/x-icon" rel="shortcut icon" href="./static-assets/images/favicon.ico">
+    <title>LEGO Addiction Shop</title>
+    <link href="static-assets\styles\header-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\footer-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\styles.css" rel="stylesheet">
+    <link href="static-assets\styles\font-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\button-styles.css" rel="stylesheet">
+    <link href="static-assets\styles\main-styles.css" rel="stylesheet">
+    <script src="static-assets/libs/main.js"></script>
+    <script src="static-assets/libs/header.js"></script>
+    <link href="static-assets\styles\chief-slider.css" rel="stylesheet">
+    <script defer src="static-assets/libs/chief-slider.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="./static-assets/styles/quiz-styles.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="true" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_content">
+            <div class="header_nav_logo icon_button"><a href="./main.html"><img id="header-logo"
+                        src="./static-assets/images/logo.png"></a></div>
+            <nav class="header_nav">
+                <ul>
+                    <li class="header_nav_item"><button class="dropdown_button text_button"
+                            onclick="openDropdownNav()"><span class="small section_text">Продукты</span></button>
+                        <div class="dropdown_nav_container" id="dropdown_nav_container">
+                            <div class="first_level">
+                                <ul>
+                                    <li class="item"><button class="nav_container_item"
+                                            onclick="openDropdownNavSecondLevel(0)"><span
+                                                class="middle section_text">Транспорт</span></button>
+                                        <div class="second_level">
+                                            <ul>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Смотреть все</span></a>
+                                                    </div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/train.png">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Самолеты</span></a></div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/plane.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Вертолеты</span></a></div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/helicopter.png">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Военная техника</span></a>
+                                                    </div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/militart.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Поезда</span></a></div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/militart.jpg">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Корабли</span></a></div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/militart.jpg">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="item"><button class="nav_container_item"
+                                            onclick="openDropdownNavSecondLevel(1)"><span
+                                                class="middle section_text">Постройки</span></button>
+                                        <div class="second_level">
+                                            <ul>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Смотреть все</span></a>
+                                                    </div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/showplace.png">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Современные
+                                                                здания</span></a></div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/9-2.jpg"></div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Достопримечательности</span></a>
+                                                    </div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/showplace.png">
+                                                    </div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Средневековые
+                                                                замки</span></a></div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/7-1.jpg"></div>
+                                                </li>
+                                                <li class="item">
+                                                    <div><a class="nav_container_item_second_level_link"
+                                                            href="./goods-lib/transport.html"><span
+                                                                class="middle section_text">Кукольные домики</span></a>
+                                                    </div>
+                                                    <div class="third_level"><img class="promo_img"
+                                                            src="./static-assets/images/head-promo-img/6-1.jpg"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="nav_container_item"><a href="./goods-lib/puzzle.html"><span
+                                                    class="middle section_text">Головоломки</span></a></div>
+                                    </li>
+                                </ul>
+                            </div><button class="dropdown_button_close icon_button" onclick="openDropdownNav()"><img
+                                    src="./static-assets/images/free-icon-close-cross-64498.png"></button>
+                        </div>
+                    </li>
+                    <li class="header_nav_item"><a href="./contacts.html"><span
+                                class="small section_text">Магазины</span></a></li>
+                </ul>
+            </nav>
+            <div class="basket icon_button"><img id="header-logo"
+                    src="./static-assets/images/premium-icon-shopping-bag-2956820.png"></div>
+            <div class="user icon_button"><img id="header-logo"
+                    src="./static-assets/images/premium-icon-user-2661519.png"></div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main">
+            <div class="quiz__head">
+                <div class="head__content" id="head"></div>
+            </div>
+            <div class="quiz__body">
+                <div class="buttons">
+                    <div class="buttons__content" id="buttons">
+                        <button class="button">Default button</button><br>
+                        <button class="button button_wrong">Wrong answer</button><br>
+                        <button class="button button_correct">Correct answer</button><br>
+                        <button class="button button_passive">Unclicked button</button><br>
+                    </div>
+                </div>
+
+                <div class="quiz__footer">
+                    <div class="footer__content" id="pages">0 / 0</div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <script type="text/javascript" src="./static-assets/libs/quiz.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,3 @@
-
 main .subsections {
     margin: 0px 16px 16px 16px;
     height: min-content;
@@ -104,4 +103,13 @@ main .goods_content {
     align-items: center;
     color: rgba(255, 255, 255, 0.8);
     font-size: 7rem;
+}
+
+.goods_content_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
 }

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta content="text/html" http-equiv="Content-Type">
-	<link type="image/x-icon" rel="shortcut icon" href="static-assets\images\favicon.ico">
+	<link type="image/x-icon" rel="shortcut icon" href="./static-assets/images/favicon.ico">
 	<title>LEGO Addiction Shop</title>
 	<link href="static-assets\styles\header-styles.css" rel="stylesheet">
 	<link href="static-assets\styles\footer-styles.css" rel="stylesheet">
@@ -12,10 +12,8 @@
 	<link href="static-assets\styles\font-styles.css" rel="stylesheet">
 	<link href="static-assets\styles\button-styles.css" rel="stylesheet">
 	<link href="static-assets\styles\main-styles.css" rel="stylesheet">
-	<script src="static-assets/libs/main.js">
-	</script>
-	<script src="static-assets/libs/header.js">
-	</script>
+	<script src="static-assets/libs/main.js"></script>
+	<script src="static-assets/libs/header.js"></script>
 	<link href="static-assets\styles\chief-slider.css" rel="stylesheet">
 	<script defer src="static-assets/libs/chief-slider.js">
 	</script>
@@ -24,185 +22,141 @@
 <body>
 	<header id="header">
 		<div class="header_content">
-			<div class="header_nav_logo icon_button">
-				<a href="main.html"><img id="header-logo" src="static-assets/images/logo.png"></a>
-			</div>
+			<div class="header_nav_logo icon_button"><a href="./main.html"><img id="header-logo"
+						src="./static-assets/images/logo.png"></a></div>
 			<nav class="header_nav">
 				<ul>
-					<li class="header_nav_item">
-						<button class="dropdown_button text_button" onclick="openDropdownNav()"><span
-								class="small section_text">Продукты</span></button>
+					<li class="header_nav_item"><button class="dropdown_button text_button"
+							onclick="openDropdownNav()"><span class="small section_text">Продукты</span></button>
 						<div class="dropdown_nav_container" id="dropdown_nav_container">
 							<div class="first_level">
 								<ul>
-									<li class="item">
-										<button class="nav_container_item" onclick="openDropdownNavSecondLevel(0)"><span
+									<li class="item"><button class="nav_container_item"
+											onclick="openDropdownNavSecondLevel(0)"><span
 												class="middle section_text">Транспорт</span></button>
 										<div class="second_level">
 											<ul>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
 																class="middle section_text">Смотреть все</span></a>
 													</div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/promo.jpg"></div>
+															src="./static-assets/images/head-promo-img/train.png">
+													</div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Самолеты</span></a>
-													</div>
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
+																class="middle section_text">Самолеты</span></a></div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/plane.jpg"></div>
+															src="./static-assets/images/head-promo-img/plane.jpg">
+													</div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Вертолеты</span></a>
-													</div>
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
+																class="middle section_text">Вертолеты</span></a></div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/helicopter.png">
+															src="./static-assets/images/head-promo-img/helicopter.png">
 													</div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
 																class="middle section_text">Военная техника</span></a>
 													</div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/militart.jpg">
+															src="./static-assets/images/head-promo-img/militart.jpg">
 													</div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Поезда</span></a>
-													</div>
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
+																class="middle section_text">Поезда</span></a></div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/train.png"></div>
+															src="./static-assets/images/head-promo-img/militart.jpg">
+													</div>
+												</li>
+												<li class="item">
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
+																class="middle section_text">Корабли</span></a></div>
+													<div class="third_level"><img class="promo_img"
+															src="./static-assets/images/head-promo-img/militart.jpg">
+													</div>
 												</li>
 											</ul>
 										</div>
 									</li>
-									<li class="item">
-										<button class="nav_container_item" onclick="openDropdownNavSecondLevel(1)"><span
-												class="middle section_text">Корабли</span></button>
-										<div class="second_level">
-											<ul>
-												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Смотреть все</span></a>
-													</div>
-													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/promo.jpg"></div>
-												</li>
-												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Современные
-																корабли</span></a>
-													</div>
-													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/ship3.jpg"></div>
-												</li>
-												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Исторические
-																модели</span></a>
-													</div>
-													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/ship.png"></div>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="item">
-										<button class="nav_container_item" onclick="openDropdownNavSecondLevel(2)"><span
+
+									<li class="item"><button class="nav_container_item"
+											onclick="openDropdownNavSecondLevel(1)"><span
 												class="middle section_text">Постройки</span></button>
 										<div class="second_level">
 											<ul>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
 																class="middle section_text">Смотреть все</span></a>
 													</div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/promo.jpg"></div>
-												</li>
-												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
-																class="middle section_text">Современные
-																здания</span></a>
+															src="./static-assets/images/head-promo-img/showplace.png">
 													</div>
-													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/promo.jpg"></div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
+																class="middle section_text">Современные
+																здания</span></a></div>
+													<div class="third_level"><img class="promo_img"
+															src="./static-assets/images/head-promo-img/9-2.jpg"></div>
+												</li>
+												<li class="item">
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
 																class="middle section_text">Достопримечательности</span></a>
 													</div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/head-promo-img/showplace.png">
+															src="./static-assets/images/head-promo-img/showplace.png">
 													</div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
 																class="middle section_text">Средневековые
-																замки</span></a>
-													</div>
+																замки</span></a></div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/promo.jpg"></div>
+															src="./static-assets/images/head-promo-img/7-1.jpg"></div>
 												</li>
 												<li class="item">
-													<div>
-														<a class="nav_container_item_second_level_link"
-															href="/ru/ru/speakers"><span
+													<div><a class="nav_container_item_second_level_link"
+															href="./goods-lib/transport.html"><span
 																class="middle section_text">Кукольные домики</span></a>
 													</div>
 													<div class="third_level"><img class="promo_img"
-															src="static-assets/images/promo.jpg"></div>
+															src="./static-assets/images/head-promo-img/6-1.jpg"></div>
 												</li>
 											</ul>
 										</div>
 									</li>
 									<li class="item">
-										<div class="nav_container_item">
-											<a href="/ru/ru/televisions"><span
-													class="middle section_text">Головоломки</span></a>
-										</div>
+										<div class="nav_container_item"><a href="./goods-lib/puzzle.html"><span
+													class="middle section_text">Головоломки</span></a></div>
 									</li>
 								</ul>
 							</div><button class="dropdown_button_close icon_button" onclick="openDropdownNav()"><img
-									src="static-assets/images/free-icon-close-cross-64498.png"></button>
+									src="./static-assets/images/free-icon-close-cross-64498.png"></button>
 						</div>
 					</li>
-					<li class="header_nav_item">
-						<a href="contacts.html"><span class="small section_text">Магазины</span></a>
-					</li>
+					<li class="header_nav_item"><a href="./contacts.html"><span
+								class="small section_text">Магазины</span></a></li>
 				</ul>
 			</nav>
 			<div class="basket icon_button"><img id="header-logo"
-					src="static-assets/images/premium-icon-shopping-bag-2956820.png"></div>
+					src="./static-assets/images/premium-icon-shopping-bag-2956820.png"></div>
 			<div class="user icon_button"><img id="header-logo"
-					src="static-assets/images/premium-icon-user-2661519.png"></div>
+					src="./static-assets/images/premium-icon-user-2661519.png"></div>
 		</div>
 	</header>
 	<main id="main">
@@ -212,37 +166,54 @@
 				<p><span class="big title">Много красивых слов</span></p>
 			</div>
 		</section>
-	
 		<article class="recommendation_section">
-			<div class="recommendation_section_promo"><img src="static-assets/images/promo.jpg"></div>
-			<div class="recommendation_section_text">
-				<span>Мы предлагаем вам товар недели еще и со скидкой</span>
-			</div>
+			<a href="./good-lib/good-2.html">
+				<div class="recommendation_section_promo"><img src="./static-assets/images/good-img/2-1.jpg"></div>
+				<div class="recommendation_section_text">
+					<span>Мы предлагаем вам товар недели со скидкой до 50%</span>
+				</div>
+			</a>
+		</article>
+		<article class="recommendation_section">
+			<a href="./quiz.html">
+				<div class="recommendation_section_promo"><img src="./static-assets/images/promo.jpg"></div>
+				<div class="recommendation_section_text">
+					<span>Пройдите опрос, чтобы определить, какой конструктор вам подойдет</span>
+				</div>
+			</a>
 		</article>
 		<article class="subsections_section">
 			<article class="subsections_card">
-				<div class="promo"><img src="static-assets/images/promo.jpg"></div>
-				<div class="title">
-					<span>Название</span>
-				</div>
+				<a href="./goods-lib/helicopter.html">
+					<div class="promo"><img src="./static-assets/images/head-promo-img/helicopter.png"></div>
+					<div class="title">
+						<span>Вертолеты</span>
+					</div>
+				</a>
 			</article>
 			<article class="subsections_card">
-				<div class="promo"><img src="static-assets/images/promo.jpg"></div>
-				<div class="title">
-					<span>Название</span>
-				</div>
+				<a href="./goods-lib/ship.html">
+					<div class="promo"><img src="./static-assets/images/head-promo-img/ship.png"></div>
+					<div class="title">
+						<span>Корабли</span>
+					</div>
+				</a>
 			</article>
 			<article class="subsections_card">
-				<div class="promo"><img src="static-assets/images/promo.jpg"></div>
-				<div class="title">
-					<span>Название</span>
-				</div>
+				<a href="./goods-lib/medieval-castles.html">
+					<div class="promo"><img src="./static-assets/images/head-promo-img/showplace.png"></div>
+					<div class="title">
+						<span>Средневековые замки</span>
+					</div>
+				</a>
 			</article>
 			<article class="subsections_card">
-				<div class="promo"><img src="static-assets/images/promo.jpg"></div>
-				<div class="title">
-					<span>Название</span>
-				</div>
+				<a href="./goods-lib/puzzle.html">
+					<div class="promo"><img src="./static-assets/images/head-promo-img/puzzle.png"></div>
+					<div class="title">
+						<span>Головоломки</span>
+					</div>
+				</a>
 			</article>
 		</article>
 	</main>
